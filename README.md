@@ -19,7 +19,7 @@ The black curve is the sum of the constituent Gaussians, showing agreement betwe
 
 To tweak the number of stars in the sample, adjust the "TOP \*" field in the Gaia query as desired.
 
-To change the number of Gaussians that are being fit, see the n_components argument in the call of GaussianMixture.
+To change the number of Gaussians that are being fit, see the "n_components" argument in the call of GaussianMixture.
 
 ## Extra Technical Info
 The LSR frame is the reference frame of a star moving in a circular orbit around the Galactic Center (GC), at a radius equal to the distance from the Sun to the GC (usually denoted $R_0$).
