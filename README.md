@@ -14,7 +14,7 @@ This will also install any dependent packages. For example, astroquery organizes
 
 ## Example
 In this scenario, a sample of 100,000 stars has been drawn. The sample has been cast through selection cuts, yielding a cut sample of 89,733 stars. The $V_{LSR}$ values for the stars has been computed and run through the GaussianMixture process. For demonstration purposes, the distribution has been fit to two Gaussian signals, but within the code (which aims to separate stellar components), three are used. A normalized histogram with 500 bins has been overlayed with the Gaussian signals.
-![100k_stars_500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843135/100k_stars_500_bins_GMM.pdf)
+![100k_stars_500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843175/100k_stars_500_bins_GMM.pdf)
 The black curve is the sum of the constituent Gaussians, showing agreement between the fit distribution and the histogram -- though adding more Gaussians would dampen any disagreements. The means and standard deviations for each component are given in the legend.
 
 To tweak the number of stars in the sample, adjust the "TOP \*" field in the Gaia query as desired.
@@ -26,4 +26,3 @@ The LSR frame is the reference frame of a star moving in a circular orbit around
 
 With respect to the LSR frame, the orthogonal velocities in the directions radial to the GC, collinear with the direction of rotation, and perpendicular to
 the galactic mid-plane are denoted $U_{LSR}$, $V_{LSR}$, and $W_{LSR}$, respectively.
-
