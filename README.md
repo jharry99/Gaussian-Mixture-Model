@@ -14,9 +14,12 @@ This will also install any dependent packages. For example, astroquery organizes
 
 ## Running the Code
 You only need three things:
+
 (1) A Python installation/environment
-(2) The requirements.txt file
-(3) The actual GaussianMixtureModel.py script
+
+(2) The 'requirements.txt' file
+
+(3) The actual 'GaussianMixtureModel.py' script
 
 After installing the prerequisites, you can directly run the Python file in your preferred IDE.
 
