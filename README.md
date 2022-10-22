@@ -22,7 +22,7 @@ After installing the prerequisites, you can directly run the Python file in your
 
 ## Example
 In this scenario, a sample of 100,000 stars has been drawn. The sample has been cast through selection cuts, yielding a cut sample of 89,733 stars. The $V_{LSR}$ values for the stars has been computed and run through the GaussianMixture process. For demonstration purposes, the distribution has been fit to two Gaussian signals, but within the code (which aims to separate stellar components), three are used. A normalized histogram with 500 bins has been overlayed with the Gaussian signals.
-![100k_stars_500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843175/100k_stars_500_bins_GMM.pdf)
+![100k_stars_500_bins_GMM-1](https://user-images.githubusercontent.com/60693488/197310622-0a7fd5bf-4f90-4df1-bcec-d9b8335c1b0b.png)
 The black curve is the sum of the constituent Gaussians, showing agreement between the fit distribution and the histogram -- though adding more Gaussians would dampen any disagreements. The means and standard deviations for each component are given in the legend.
 
 To tweak the number of stars in the sample, adjust the "TOP \*" field in the Gaia query as desired.
@@ -31,7 +31,7 @@ To change the number of Gaussians that are being fit, see the "n_components" arg
 
 # Extra Example
 In this case, the sample has 700,000 stars initially, with 631,060 stars after selection cuts. This time, the number of histogram bins has been adjusted to 3500. The distributions are shown below:
-![700k_stars_3500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843206/700k_stars_3500_bins_GMM.pdf)
+![700k_stars_3500_bins_GMM-1](https://user-images.githubusercontent.com/60693488/197310623-fc555bdc-a012-46f6-8c8b-106e8bca56ef.png)
 
 ## Extra Technical Info
 The LSR frame is the reference frame of a star moving in a circular orbit around the Galactic Center (GC), at a radius equal to the distance from the Sun to the GC (usually denoted $R_0$).
