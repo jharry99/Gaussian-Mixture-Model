@@ -8,7 +8,7 @@ You are recommended to make a new Python environment for organization purposes, 
 
 In a Python terminal - e.g. Visual Studio Code - install the required packages using the 'requirements.txt' file:
 ```
-> pip install requirements.txt
+> pip install -r requirements.txt
 ```
 This will also install any dependent packages. For example, astroquery organizes data into astropy tables, so astropy will be installed as a dependency with astroquery.
 
