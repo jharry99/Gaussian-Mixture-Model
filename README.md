@@ -12,6 +12,14 @@ In a Python terminal - e.g. Visual Studio Code - install the required packages u
 ```
 This will also install any dependent packages. For example, astroquery organizes data into astropy tables, so astropy will be installed as a dependency with astroquery.
 
+## Running the Code
+You only need three things:
+(1) A Python installation/environment
+(2) The requirements.txt file
+(3) The actual GaussianMixtureModel.py script
+
+After installing the prerequisites, you can directly run the Python file in your preferred IDE.
+
 ## Example
 In this scenario, a sample of 100,000 stars has been drawn. The sample has been cast through selection cuts, yielding a cut sample of 89,733 stars. The $V_{LSR}$ values for the stars has been computed and run through the GaussianMixture process. For demonstration purposes, the distribution has been fit to two Gaussian signals, but within the code (which aims to separate stellar components), three are used. A normalized histogram with 500 bins has been overlayed with the Gaussian signals.
 ![100k_stars_500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843175/100k_stars_500_bins_GMM.pdf)
