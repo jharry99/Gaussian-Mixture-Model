@@ -22,7 +22,7 @@ To tweak the number of stars in the sample, adjust the "TOP \*" field in the Gai
 To change the number of Gaussians that are being fit, see the "n_components" argument in the call of GaussianMixture.
 
 # Extra Example
-In this case, the sample has 700,000 stars initially, with ** stars after selection cuts. This time, the number of histogram bins has been adjusted to 3500. The distributions are shown below:
+In this case, the sample has 700,000 stars initially, with 631,060 stars after selection cuts. This time, the number of histogram bins has been adjusted to 3500. The distributions are shown below:
 ![700k_stars_3500_bins_GMM.pdf](https://github.com/jharry99/Gaussian-Mixture-Model-V1/files/9843206/700k_stars_3500_bins_GMM.pdf)
 
 ## Extra Technical Info
